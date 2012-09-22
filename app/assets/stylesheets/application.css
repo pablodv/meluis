@@ -11,3 +11,22 @@
  *= require_self
  *= require_tree .
  */
+
+.menu ul{
+  float:left;
+  width:100%;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+.menu a{
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+section#body_content h1{
+  display: none;
+}
